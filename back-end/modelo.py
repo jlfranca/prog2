@@ -40,4 +40,3 @@ if __name__ == "__main__":
     
     print(p1.json())
     print(p2.json())
-    
