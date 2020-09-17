@@ -33,10 +33,11 @@ if __name__ == "__main__":
 
     p1= Roupa(modelo="camiseta", tamanho="P", cor="azul", tecido="jeans", marca="nike")
     p2= Roupa(modelo="camisa", tamanho="G", cor="rosa", tecido="algodao", marca="adidas")
-
+    
     db.session.add(p1)
     db.session.add(p2)
     db.session.commit()
     
     print(p1.json())
     print(p2.json())
+    
